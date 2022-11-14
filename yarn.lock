@@ -62,13 +62,13 @@
     "@sentry/utils" "6.11.0"
     tslib "^1.9.3"
 
-"@sentry/integrations@^6.11.0":
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-6.11.0.tgz#da0706306b5ff13eaae5771095d7fc82c9f4c68b"
-  integrity sha512-CtSMW+PJlw+EunDJ+9LCWxRcXQIsUDlcUZOhFyAdmM5YIbg2V0IqHtnYg8X2sSGRO3aTEc7lOG5nF4lqr3R0yg==
+"@sentry/integrations@^7.19.0":
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-7.19.0.tgz#570b7ced7ef9de43a6a56f99f324936148adf6b9"
+  integrity sha512-0x5AGU7EBIzOTSqD7TFvD4S5eX6hbqbvb4YCzJt3SIZC3bO4FiBu2t0y+PIZUSsupnqafBIIWsCcGWeKrNHAyA==
   dependencies:
-    "@sentry/types" "6.11.0"
-    "@sentry/utils" "6.11.0"
+    "@sentry/types" "7.19.0"
+    "@sentry/utils" "7.19.0"
     localforage "^1.8.1"
     tslib "^1.9.3"
 
@@ -112,12 +112,25 @@
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.11.0.tgz#5122685478d32ddacd3a891cbcf550012df85f7c"
   integrity sha512-gm5H9eZhL6bsIy/h3T+/Fzzz2vINhHhqd92CjHle3w7uXdTdFV98i2pDpErBGNTSNzbntqOMifYEB5ENtZAvcg==
 
+"@sentry/types@7.19.0":
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.19.0.tgz#3ebb96670399b637a945fa499fa7436f7b930147"
+  integrity sha512-oGRAT6lfzoKrxO1mvxiSj0XHxWPd6Gd1wpPGuu6iJo03xgWDS+MIlD1h2unqL4N5fAzLjzmbC2D2lUw50Kn2pA==
+
 "@sentry/utils@6.11.0":
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.11.0.tgz#d1dee4faf4d9c42c54bba88d5a66fb96b902a14c"
   integrity sha512-IOvyFHcnbRQxa++jO+ZUzRvFHEJ1cZjrBIQaNVc0IYF0twUOB5PTP6joTcix38ldaLeapaPZ9LGfudbvYvxkdg==
   dependencies:
     "@sentry/types" "6.11.0"
+    tslib "^1.9.3"
+
+"@sentry/utils@7.19.0":
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.19.0.tgz#0e039fe57056074c3a5e47bd50d9cb4ac9a6e909"
+  integrity sha512-2L6lq+c9Ol2uiRxQDdcgoapmHJp24MhMN0gIkn2alSfMJ+ls6bGXzQHx6JAIdoOiwFQXRZHKL9ecfAc8O+vItA==
+  dependencies:
+    "@sentry/types" "7.19.0"
     tslib "^1.9.3"
 
 "@types/component-emitter@^1.2.10":
